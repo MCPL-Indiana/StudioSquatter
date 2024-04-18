@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA43C922BD17E6800D97547 /* StudioSquatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA43C912BD17E6800D97547 /* StudioSquatterApp.swift */; };
+		CDA43C942BD17E6800D97547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA43C932BD17E6800D97547 /* ContentView.swift */; };
+		CDA43C962BD17E6900D97547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA43C952BD17E6900D97547 /* Assets.xcassets */; };
+		CDA43C992BD17E6900D97547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA43C982BD17E6900D97547 /* Preview Assets.xcassets */; };
+		CDA43CA42BD17E6900D97547 /* StudioSquatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA43CA32BD17E6900D97547 /* StudioSquatterTests.swift */; };
+		CDA43CAE2BD17E6900D97547 /* StudioSquatterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA43CAD2BD17E6900D97547 /* StudioSquatterUITests.swift */; };
+		CDA43CB02BD17E6900D97547 /* StudioSquatterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA43CAF2BD17E6900D97547 /* StudioSquatterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDA43CA02BD17E6900D97547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA43C862BD17E6800D97547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA43C8D2BD17E6800D97547;
+			remoteInfo = StudioSquatter;
+		};
+		CDA43CAA2BD17E6900D97547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDA43C862BD17E6800D97547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDA43C8D2BD17E6800D97547;
+			remoteInfo = StudioSquatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDA43C8E2BD17E6800D97547 /* StudioSquatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudioSquatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA43C912BD17E6800D97547 /* StudioSquatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioSquatterApp.swift; sourceTree = "<group>"; };
+		CDA43C932BD17E6800D97547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDA43C952BD17E6900D97547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDA43C982BD17E6900D97547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA43C9A2BD17E6900D97547 /* StudioSquatter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudioSquatter.entitlements; sourceTree = "<group>"; };
+		CDA43C9F2BD17E6900D97547 /* StudioSquatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioSquatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA43CA32BD17E6900D97547 /* StudioSquatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioSquatterTests.swift; sourceTree = "<group>"; };
+		CDA43CA92BD17E6900D97547 /* StudioSquatterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudioSquatterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA43CAD2BD17E6900D97547 /* StudioSquatterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioSquatterUITests.swift; sourceTree = "<group>"; };
+		CDA43CAF2BD17E6900D97547 /* StudioSquatterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioSquatterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA43C8B2BD17E6800D97547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43C9C2BD17E6900D97547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43CA62BD17E6900D97547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA43C852BD17E6800D97547 = {
+			isa = PBXGroup;
+			children = (
+				CDA43C902BD17E6800D97547 /* StudioSquatter */,
+				CDA43CA22BD17E6900D97547 /* StudioSquatterTests */,
+				CDA43CAC2BD17E6900D97547 /* StudioSquatterUITests */,
+				CDA43C8F2BD17E6800D97547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA43C8F2BD17E6800D97547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA43C8E2BD17E6800D97547 /* StudioSquatter.app */,
+				CDA43C9F2BD17E6900D97547 /* StudioSquatterTests.xctest */,
+				CDA43CA92BD17E6900D97547 /* StudioSquatterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA43C902BD17E6800D97547 /* StudioSquatter */ = {
+			isa = PBXGroup;
+			children = (
+				CDA43C912BD17E6800D97547 /* StudioSquatterApp.swift */,
+				CDA43C932BD17E6800D97547 /* ContentView.swift */,
+				CDA43C952BD17E6900D97547 /* Assets.xcassets */,
+				CDA43C9A2BD17E6900D97547 /* StudioSquatter.entitlements */,
+				CDA43C972BD17E6900D97547 /* Preview Content */,
+			);
+			path = StudioSquatter;
+			sourceTree = "<group>";
+		};
+		CDA43C972BD17E6900D97547 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDA43C982BD17E6900D97547 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA43CA22BD17E6900D97547 /* StudioSquatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA43CA32BD17E6900D97547 /* StudioSquatterTests.swift */,
+			);
+			path = StudioSquatterTests;
+			sourceTree = "<group>";
+		};
+		CDA43CAC2BD17E6900D97547 /* StudioSquatterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDA43CAD2BD17E6900D97547 /* StudioSquatterUITests.swift */,
+				CDA43CAF2BD17E6900D97547 /* StudioSquatterUITestsLaunchTests.swift */,
+			);
+			path = StudioSquatterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA43C8D2BD17E6800D97547 /* StudioSquatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA43CB32BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatter" */;
+			buildPhases = (
+				CDA43C8A2BD17E6800D97547 /* Sources */,
+				CDA43C8B2BD17E6800D97547 /* Frameworks */,
+				CDA43C8C2BD17E6800D97547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudioSquatter;
+			productName = StudioSquatter;
+			productReference = CDA43C8E2BD17E6800D97547 /* StudioSquatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDA43C9E2BD17E6900D97547 /* StudioSquatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA43CB62BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatterTests" */;
+			buildPhases = (
+				CDA43C9B2BD17E6900D97547 /* Sources */,
+				CDA43C9C2BD17E6900D97547 /* Frameworks */,
+				CDA43C9D2BD17E6900D97547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA43CA12BD17E6900D97547 /* PBXTargetDependency */,
+			);
+			name = StudioSquatterTests;
+			productName = StudioSquatterTests;
+			productReference = CDA43C9F2BD17E6900D97547 /* StudioSquatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDA43CA82BD17E6900D97547 /* StudioSquatterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA43CB92BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatterUITests" */;
+			buildPhases = (
+				CDA43CA52BD17E6900D97547 /* Sources */,
+				CDA43CA62BD17E6900D97547 /* Frameworks */,
+				CDA43CA72BD17E6900D97547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDA43CAB2BD17E6900D97547 /* PBXTargetDependency */,
+			);
+			name = StudioSquatterUITests;
+			productName = StudioSquatterUITests;
+			productReference = CDA43CA92BD17E6900D97547 /* StudioSquatterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA43C862BD17E6800D97547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CDA43C8D2BD17E6800D97547 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CDA43C9E2BD17E6900D97547 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDA43C8D2BD17E6800D97547;
+					};
+					CDA43CA82BD17E6900D97547 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CDA43C8D2BD17E6800D97547;
+					};
+				};
+			};
+			buildConfigurationList = CDA43C892BD17E6800D97547 /* Build configuration list for PBXProject "StudioSquatter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA43C852BD17E6800D97547;
+			productRefGroup = CDA43C8F2BD17E6800D97547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA43C8D2BD17E6800D97547 /* StudioSquatter */,
+				CDA43C9E2BD17E6900D97547 /* StudioSquatterTests */,
+				CDA43CA82BD17E6900D97547 /* StudioSquatterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA43C8C2BD17E6800D97547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA43C992BD17E6900D97547 /* Preview Assets.xcassets in Resources */,
+				CDA43C962BD17E6900D97547 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43C9D2BD17E6900D97547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43CA72BD17E6900D97547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA43C8A2BD17E6800D97547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA43C942BD17E6800D97547 /* ContentView.swift in Sources */,
+				CDA43C922BD17E6800D97547 /* StudioSquatterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43C9B2BD17E6900D97547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA43CA42BD17E6900D97547 /* StudioSquatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA43CA52BD17E6900D97547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA43CAE2BD17E6900D97547 /* StudioSquatterUITests.swift in Sources */,
+				CDA43CB02BD17E6900D97547 /* StudioSquatterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDA43CA12BD17E6900D97547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA43C8D2BD17E6800D97547 /* StudioSquatter */;
+			targetProxy = CDA43CA02BD17E6900D97547 /* PBXContainerItemProxy */;
+		};
+		CDA43CAB2BD17E6900D97547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDA43C8D2BD17E6800D97547 /* StudioSquatter */;
+			targetProxy = CDA43CAA2BD17E6900D97547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDA43CB12BD17E6900D97547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDA43CB22BD17E6900D97547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CDA43CB42BD17E6900D97547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudioSquatter/StudioSquatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudioSquatter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDA43CB52BD17E6900D97547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudioSquatter/StudioSquatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StudioSquatter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CDA43CB72BD17E6900D97547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudioSquatter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudioSquatter";
+			};
+			name = Debug;
+		};
+		CDA43CB82BD17E6900D97547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudioSquatter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StudioSquatter";
+			};
+			name = Release;
+		};
+		CDA43CBA2BD17E6900D97547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StudioSquatter;
+			};
+			name = Debug;
+		};
+		CDA43CBB2BD17E6900D97547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.StudioSquatterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = StudioSquatter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA43C892BD17E6800D97547 /* Build configuration list for PBXProject "StudioSquatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA43CB12BD17E6900D97547 /* Debug */,
+				CDA43CB22BD17E6900D97547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA43CB32BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA43CB42BD17E6900D97547 /* Debug */,
+				CDA43CB52BD17E6900D97547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA43CB62BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA43CB72BD17E6900D97547 /* Debug */,
+				CDA43CB82BD17E6900D97547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA43CB92BD17E6900D97547 /* Build configuration list for PBXNativeTarget "StudioSquatterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA43CBA2BD17E6900D97547 /* Debug */,
+				CDA43CBB2BD17E6900D97547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA43C862BD17E6800D97547 /* Project object */;
+}
