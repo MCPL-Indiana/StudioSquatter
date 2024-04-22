@@ -21,16 +21,19 @@
       "size" : "32x32"
     },
     {
+      "filename" : "darth2.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
+      "filename" : "darth 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "darth.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
