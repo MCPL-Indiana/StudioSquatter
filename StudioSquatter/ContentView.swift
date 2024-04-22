@@ -11,6 +11,8 @@ struct Audio1 {
 }
 
 struct ContentView: View {
+    @State private var strAudio1: String = "10.10.25.68"
+    @State private var strAudio2: String = "10.10.25.67"
     @State private var strWarn1: String = ""
     @State private var strWarn2: String = ""
     var body: some View {
@@ -166,7 +168,7 @@ struct ContentView: View {
     }
     
     func message1(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn1 + "\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio1, "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn1 + "\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -177,7 +179,7 @@ struct ContentView: View {
     }
     
     func warn1A(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio1, "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -187,7 +189,7 @@ struct ContentView: View {
     }
     
     func warn1B(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio1, "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -197,7 +199,7 @@ struct ContentView: View {
     }
     
     func boot1(){
-        let arg = ["root@10.10.12.43", "shutdown -h NOW", "exit"]
+        let arg = ["root@" + strAudio1, "shutdown -h NOW", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -207,7 +209,7 @@ struct ContentView: View {
     
     
     func message2(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn2 + "\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio2, "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn2 + "\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -218,7 +220,7 @@ struct ContentView: View {
     }
     
     func warn2A(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio2, "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -228,7 +230,7 @@ struct ContentView: View {
     }
     
     func warn2B(){
-        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
+        let arg = ["a_usermac@" + strAudio2, "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -238,7 +240,7 @@ struct ContentView: View {
     }
     
     func boot2(){
-        let arg = ["root@10.10.12.43", "shutdown -h NOW", "exit"]
+        let arg = ["root@" + strAudio2, "shutdown -h NOW", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
