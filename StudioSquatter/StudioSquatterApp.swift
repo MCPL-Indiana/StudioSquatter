@@ -13,5 +13,25 @@ struct StudioSquatterApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            CommandGroup(replacing: .appInfo) {
+                Button("About Studio Anti-Squatter") {
+                    NSApplication.shared.orderFrontStandardAboutPanel(
+                        options: [
+                            NSApplication.AboutPanelOptionKey.credits: NSAttributedString(
+                                string: "Created for Level Up - MCPL - Cody Mullis",
+                                attributes: [
+                                    NSAttributedString.Key.font: NSFont.boldSystemFont(
+                                        ofSize: NSFont.smallSystemFontSize)
+                                ]
+                            ),
+                            NSApplication.AboutPanelOptionKey(
+                                rawValue: "Copyright"
+                            ): "2024 - May the Force be with you"
+                        ]
+                    )
+                }
+            }
+        }
     }
 }

@@ -19,9 +19,9 @@ struct ContentView: View {
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .font(.largeTitle)
             HStack {
-                Image(systemName: "exclamationmark.bubble.fill")
+                Image(systemName: "message.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.tint)
+                    .foregroundColor(.green)
                 Text("Send \n Message")
                     .multilineTextAlignment(.center)
                 TextField("Send Message", text: $strWarn1, axis: .vertical)
@@ -45,6 +45,8 @@ struct ContentView: View {
                 
                 Button(action: warn1A) {
                     Image(systemName:"15.circle.fill")
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(.white)
                         .controlSize(.extraLarge)
                     Text("Warning")
@@ -58,6 +60,8 @@ struct ContentView: View {
                 Spacer()
                 Button(action: warn1B) {
                     Image(systemName:"5.circle.fill")
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(.black)
                         .controlSize(.extraLarge)
                     Text("Warning")
@@ -88,9 +92,9 @@ struct ContentView: View {
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 .font(.largeTitle)
             HStack {
-                Image(systemName: "exclamationmark.bubble.fill")
+                Image(systemName: "message.fill")
                     .imageScale(.large)
-                    .foregroundStyle(.tint)
+                    .foregroundColor(.green)
                 Text("Send \n Message")
                     .multilineTextAlignment(.center)
                 TextField("Send Message", text: $strWarn2, axis: .vertical)
@@ -114,6 +118,8 @@ struct ContentView: View {
                 
                 Button(action: warn2A) {
                     Image(systemName:"15.circle.fill")
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(.white)
                         .controlSize(.extraLarge)
                     Text("Warning")
@@ -127,6 +133,8 @@ struct ContentView: View {
                 Spacer()
                 Button(action: warn2B) {
                     Image(systemName:"5.circle.fill")
+                        .resizable()
+                        .scaledToFit()
                         .foregroundColor(.black)
                         .controlSize(.extraLarge)
                     Text("Warning")
