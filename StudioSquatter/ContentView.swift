@@ -166,7 +166,7 @@ struct ContentView: View {
     }
     
     func message1(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn1 + "\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn1 + "\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -177,7 +177,7 @@ struct ContentView: View {
     }
     
     func warn1A(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -187,7 +187,7 @@ struct ContentView: View {
     }
     
     func warn1B(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -207,7 +207,7 @@ struct ContentView: View {
     
     
     func message2(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn2 + "\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"" + strWarn2 + "\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -218,7 +218,7 @@ struct ContentView: View {
     }
     
     func warn2A(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 15 minutes left in your studio session\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
@@ -228,7 +228,7 @@ struct ContentView: View {
     }
     
     func warn2B(){
-        let arg = ["root@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
+        let arg = ["exec@10.10.12.43", "osascript -e 'tell app \"System Events\" to display dialog \"You have 5 minutes left in your studio session. \n Please save your work now.\"'", "exit"]
         let task = Process()
         task.launchPath = "/usr/bin/ssh"
         task.arguments = arg
