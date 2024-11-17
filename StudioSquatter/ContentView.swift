@@ -11,8 +11,8 @@ struct Audio1 {
 }
 
 struct ContentView: View {
-    @State private var strAudio1: String = "10.10.30.47"
-    @State private var strAudio2: String = "10.10.30.42"
+    @State private var strAudio1: String = "10.10.30.42"
+    @State private var strAudio2: String = "10.10.30.47"
     @State private var strWarn1: String = ""
     @State private var strWarn2: String = ""
     var body: some View {
